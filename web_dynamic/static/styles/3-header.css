@@ -9,18 +9,15 @@ header .logo {
     left: 20px;
     height: 100%;
 }
-#api_status.available{
-    background-color: #ff545f;
-}
 
-#api_status{
+header #api_status {
+    margin-left: auto;
     width: 40px;
     height: 40px;
-    border-radius: 100%;
-    background: #ccc;
-    float: right;
     margin-right: 30px;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    border-radius: 50%;
+    background-color: #cccccc;
+}
+header #api_status.available {
+	background-color: #ff545f;
 }
